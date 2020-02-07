@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+header {
+  width: 100%;
+  background: #ffffff;
+  color: #0000ec;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.contenedor {
+  margin: auto;
+  padding: 5px;
+}
+
+h1 {
+  float: left;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "IBM Plex Mono", monospace;
+  height: 80px;
+}
+
+#footer .brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 16px;
+}
+
+#footer i {
+  padding-right: 28px;
+}
+
+#footer .fa-telegram {
+  padding: 0px;
+}
+
+@media (min-width: 731px) {
+  header .contenedor {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 0px;
+  }
+
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;
+    margin: 10px 100px 10px 100px;
+  }
+}

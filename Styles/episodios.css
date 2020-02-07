@@ -1,0 +1,51 @@
+#episodios{
+  background: linear-gradient(225deg, #3e8dac 0%, #40ece4 100%);
+  clip-path: polygon(0 4%, 100% 0, 100% 95%, 0% 100%);
+  height: 1300px;
+  margin-top: 90px;  
+}
+
+#episodios-titulo{
+  padding-top: 70px;
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+  text-decoration: none;
+  margin-left: 16px;
+  margin-bottom: 2%;
+}
+
+iframe{
+  width: 95%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  border-style: hidden;
+}
+
+@media (min-width: 731px){
+  #episodios{
+    clip-path: polygon(0 11%, 100% 0, 100% 90%, 0% 100%); 
+    height: 1000px;  
+  }
+
+#episodios-titulo{
+  margin-left: 200px;
+  padding: 150px 0px 0px 16px
+}
+
+iframe{
+  width: 584px;
+  margin-left: 4%;
+  height: 232px; 
+}
+
+.episodios{
+  display: flex;
+  flex-direction: row;
+  margin-right: 3%;
+}
+}
+
+
+
+
